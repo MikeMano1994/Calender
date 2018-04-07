@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorGreen">#008489</color>
+    <color name="colorWhite">#e5e5e5</color>
+    <color name="transpyellow">#33bab329</color>
+
+    <color name="darker_gray">#008489</color>
+    <color name="switchchecked_1">#1fc6d5</color>
+    <color name="com_facebook_blue">#3B5998</color>
+
+</resources>

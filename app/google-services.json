@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "282690612877",
+    "project_id": "kotling-198704"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:282690612877:android:5f9b5b79f3bd4de3",
+        "android_client_info": {
+          "package_name": "cog.com.kotlin_google_plus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "282690612877-fs2vpgq2ead6ntktqlg3hurmato2tk5o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cog.com.kotlin_google_plus",
+            "certificate_hash": "0cbbf37f892587a6c1faa07a15e1aa385a950db8"
+          }
+        },
+        {
+          "client_id": "282690612877-v1trkc2j41m8bt9a3lvdb61ns9vct4ff.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIQYFCDANMwSNplqR9X5dnScjwXuXVy24"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

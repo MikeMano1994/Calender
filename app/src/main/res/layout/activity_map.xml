@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fitsSystemWindows="true"
+    tools:context="cog.com.kotlin_google_plus.MapsActivity">
+
+    <fragment
+        android:id="@+id/map"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="20dp"
+            android:id="@+id/myLocationButton"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/circle"
+            >
+            <ImageView
+                android:id="@+id/myLocationImg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/gpsloc"
+                />
+        </RelativeLayout>
+        <TextView
+            android:layout_below="@+id/myLocationButton"
+            android:id="@+id/search_location"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_margin="15dp"
+            android:text="Current Location"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:background="#008489"/>
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>
